@@ -1,6 +1,32 @@
 body{
-    background-image: linear-gradient(rgb(7, 115, 161), aqua)}
+    background-image: linear-gradient(rgb(7, 115, 161), aqua)
+}
+
+#botao {
+    float: right;
+    margin-top: 20px;
+}
 
 div a {
     background-color: rgb(198, 58, 3);
 }
+
+#cabecalho{
+    margin-left: 40%;
+    display: inline-block;
+    border: 2px;
+    border-color: black;
+ }
+
+ #imagemCabecalho{
+    width: 10%; 
+    height: 10%; 
+    margin-bottom: -6px;
+ }
+
+
+ #titulo {
+    text-align: center; 
+    font-family: Arial; 
+    font-weight: lighter;
+ }
