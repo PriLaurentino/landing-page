@@ -1,77 +1,99 @@
-body{
-    background-image: linear-gradient(rgb(7, 115, 161), aqua);
-    height: 600px;  
-    color: white;  
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+strong {
+    font-weight: bold;
+}
+
+body {
+    background: linear-gradient(#125564, #5dc3c5);
+    background-repeat: no-repeat;
+    padding: 70px;
+}
+
+header {
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
 }
 
 .botao {
-    float: right;
-    background-color: rgb(198, 58, 3);
-    font-family: Arial; 
-    border-radius: 30px; 
-    padding-left: 40px;
-    padding-right: 40px; 
-    padding-top: 10px; 
-    padding-bottom: 10px;
-    
-    
+    text-decoration: none;
+    background-color: orangered;
+    padding: 8px 30px;
     color: white;
+    border-radius: 25px;
+    box-shadow: 1px 1px 2px black;
 }
 
-#login {
-    font-size: small;
-    padding-left: 30px;
-    padding-right: 30px; 
-    padding-top: 7px; 
-    padding-bottom: 6px; 
-    margin-top: -20px;
+.botao:active {
+    background-color: orange;
+    transition: 100ms;
+    box-shadow: 0px 0px 1px black;
 }
 
-#video  {
-    margin-top: 130px;
+.botao-login {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.principal {
+    width: 940px;
+    margin: 0 auto;
     text-align: center;
 }
 
-#linkPlayTexto {
-    color: white;
-    text-decoration: none;
-}
-
-#comece {
-    margin-top: 40px; 
-    margin-right: 240px;
-    font-size: -20px; 
-}
-
-#cabecalho{
-    margin-left: 40%;
+.logo {
+    height: 30px;
     display: inline-block;
-    border: 2px;
-    border-color: black;
- }
+}
 
- #imagemCabecalho{
-    width: 10%; 
-    height: 10%; 
-    margin-bottom: -6px;
- }
+.titulo {
+    display: inline-block;
+    vertical-align: sub;
+    color: white;
+    font-size: large;
+}
+
+.titulo-logo {
+    text-align: center;
+}
 
 
- #titulo {
-    text-align: center; 
-    font-family: Arial; 
-    font-weight: lighter;
- }
+h1 {
+    font-size: xx-large;
+    text-transform: uppercase;
+    color: white;
+    margin: 20px 0px;
+}
 
- #textoPrincipal {
-    text-align: center; 
-    line-height: 1.2; 
-    font-size: 12px;
- }
+.principal-texto {
+    color: white;
+    margin: 20px 200px 50px;
+}
 
- #linkPlayImagem{
-    width: 5%; 
-    height: 5%; 
-    margin-bottom: -12px;
-   
- }
+.botao-comece {
+    margin: 20px;
+    cursor: pointer;
+}
+
+.link-video {
+    margin: 50px 0px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.play {
+    color: white;
+    border: solid 6px;
+    border-radius: 30px;
+    padding: 3px 3px 2px 4px;
+}
